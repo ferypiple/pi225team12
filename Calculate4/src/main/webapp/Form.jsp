@@ -13,7 +13,7 @@
         <input type="text" name="length" id="length" value="длина">
         <label for="width">Ширина прямоугольника:</label>
         <input type="text" name="width" id="width" value="ширина">
-        <input type="submit" name="sign" value="Calculate">
+        <input type="submit" name="sign" value="Calculate ">
     </form>
 </body>
 </html>
