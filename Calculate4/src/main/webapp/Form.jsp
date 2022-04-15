@@ -8,7 +8,7 @@
 </head>
 <body>
 <h1>Калькулятор - площадь прямоугольника</h1>
-    <form action="${pageContext.reguest.contextPath}/JavaCalc" method="post">
+    <form action="http://localhost:8080/Calculate4/Calc" method="post">
         <label for="length">Длина прямоугольника:</label>
         <input type="text" name="length" id="length" value="длина">
         <label for="width">Ширина прямоугольника:</label>

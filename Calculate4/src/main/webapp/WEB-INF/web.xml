@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Calc</servlet-name>
+  	<display-name>Calc</display-name>
+  	<description></description>
+  	<servlet-class>laba4.Calc</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Calc</servlet-name>
+  	<url-pattern>/Calc</url-pattern>
+  </servlet-mapping>
 </web-app>
